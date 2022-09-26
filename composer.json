@@ -1,0 +1,32 @@
+{
+  "name": "ash-php/encrypt",
+  "description": "ash-php encrypt component",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["php","ash-php","framework"],
+  "homepage": "https://github.com/ash-php",
+  "authors": [
+    {
+      "name": "chinayin",
+      "email": "whereismoney@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "ash-php/core": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ash\\Encrypt\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AshTests\\Encrypt\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
